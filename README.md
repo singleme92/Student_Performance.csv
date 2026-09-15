@@ -322,6 +322,7 @@ The strongest finding is the relationship between weekly self-study hours and to
 
 The project demonstrates how a Data Analyst can move beyond simply creating charts and use data to answer meaningful questions, identify patterns, communicate insights, and support evidence-based decision-making.
 
+
  Author:
 Babajide John Falowo
 

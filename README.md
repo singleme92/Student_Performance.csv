@@ -260,7 +260,6 @@ Avoid relying on assumptions alone. Statistical analysis should be used to test 
 Combine multiple indicators when evaluating student performance rather than using a single metric.
 
  Dashboard Preview
-Add your Power BI dashboard screenshot to the repository and display it here:
 
 ![Student Performance Power BI Dashboard](images/student-performance-dashboard.png)
 Recommended repository structure:
@@ -323,7 +322,7 @@ The strongest finding is the relationship between weekly self-study hours and to
 
 The project demonstrates how a Data Analyst can move beyond simply creating charts and use data to answer meaningful questions, identify patterns, communicate insights, and support evidence-based decision-making.
 
- Author
+ Author:
 Babajide John Falowo
 
 Data Analyst | Data Science Enthusiast

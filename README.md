@@ -212,7 +212,7 @@ F
 
 Selecting a grade updates the KPI cards and visualizations dynamically.
 
-?? Key Insights
+ Key Insights
 Insight 1 — Overall performance is relatively high
 The average total score is approximately 84.28, indicating a generally strong overall performance across the dataset.
 

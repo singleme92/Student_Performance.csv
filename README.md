@@ -1,14 +1,14 @@
 
 
 
-?? Student Performance Analysis Dashboard
+ Student Performance Analysis Dashboard
 
 
 
 
 
 
-?? Project Overview
+ Project Overview
 This project analyzes 1,000,000 student records to understand academic performance and the relationship between students' study habits, attendance, class participation, and final scores.
 
 The project combines Python exploratory data analysis (EDA) with an interactive Power BI dashboard to transform raw student-performance data into clear, decision-ready insights.
@@ -31,7 +31,7 @@ Relationship between study time and academic performance
 
 Relationship between attendance and academic performance
 
-?? Business / Analytical Objectives
+ Business / Analytical Objectives
 The main objectives of this project are to:
 
 Measure the overall academic performance of students.
@@ -48,7 +48,7 @@ Create an interactive dashboard that allows users to filter performance by grade
 
 Present findings in a format suitable for educators, school administrators, and other stakeholders.
 
-??? Dataset
+ Dataset
 Dataset: student_performance.csv
 
 Records: 1,000,000 students
@@ -79,7 +79,7 @@ Unique grade categories
 
 Minimum and maximum values
 
-??? Tools & Technologies
+ Tools & Technologies
 Python
 Python
 
@@ -115,7 +115,7 @@ Git
 
 GitHub
 
-?? Project Workflow
+ Project Workflow
 Raw Dataset
      ?
 Data Inspection
@@ -133,7 +133,7 @@ DAX Measures
 Interactive Dashboard
      ?
 Insights & Recommendations
-?? Key Performance Indicators
+ Key Performance Indicators
 The Power BI dashboard contains four main KPI cards:
 
 1. Total Students
@@ -150,7 +150,7 @@ The Power BI dashboard contains four main KPI cards:
 
 These KPIs provide a quick summary of the student population before users explore the detailed visuals.
 
-?? Power BI Dashboard Visualizations
+ Power BI Dashboard Visualizations
 The dashboard contains the following visuals:
 
 1. Student Distribution by Grade
@@ -213,30 +213,30 @@ F
 Selecting a grade updates the KPI cards and visualizations dynamically.
 
 ?? Key Insights
-Insight 1 — Overall performance is relatively high
+Insight 1 â€” Overall performance is relatively high
 The average total score is approximately 84.28, indicating a generally strong overall performance across the dataset.
 
-Insight 2 — Grade A dominates the dataset
+Insight 2 â€” Grade A dominates the dataset
 More than half of the students are classified as Grade A:
 
 548,644 out of 1,000,000 students (54.86%)
 
-Insight 3 — Study time has a strong relationship with performance
+Insight 3 â€” Study time has a strong relationship with performance
 Weekly self-study hours have a correlation of approximately 0.812 with total score.
 
 This is a strong positive relationship and suggests that independent study time is strongly associated with academic performance in this dataset.
 
-Insight 4 — Attendance shows almost no linear relationship with score
+Insight 4 â€” Attendance shows almost no linear relationship with score
 Attendance has a correlation of approximately -0.001 with total score.
 
 This is a useful example of why analysts should investigate the data rather than assume that every commonly expected factor will show a strong statistical relationship.
 
-Insight 5 — Class participation has almost no linear relationship with total score
+Insight 5 â€” Class participation has almost no linear relationship with total score
 Class participation has a correlation of approximately 0.001 with total score in the dataset.
 
 Again, this describes the observed data and should not be interpreted as proof that classroom participation has no educational value.
 
-?? Power BI DAX Measures
+ Power BI DAX Measures
 The dashboard uses measures such as:
 
 Total Students = COUNTROWS(student_performance)
@@ -246,7 +246,7 @@ Average Study Hours = AVERAGE(student_performance[weekly_self_study_hours])
 Average Participation = AVERAGE(student_performance[class_participation])
 These measures allow the dashboard to respond dynamically to filters and slicer selections.
 
-?? Recommendations
+ Recommendations
 Based on the analysis:
 
 Encourage structured self-study programs because study hours show a strong positive association with total score.
@@ -259,29 +259,29 @@ Avoid relying on assumptions alone. Statistical analysis should be used to test 
 
 Combine multiple indicators when evaluating student performance rather than using a single metric.
 
-?? Dashboard Preview
+ Dashboard Preview
 Add your Power BI dashboard screenshot to the repository and display it here:
 
 ![Student Performance Power BI Dashboard](images/student-performance-dashboard.png)
 Recommended repository structure:
 
 Student-Performance-Analysis/
-¦
+Â¦
 +-- README.md
 +-- data/
-¦   +-- student_performance.csv
-¦
+Â¦   +-- student_performance.csv
+Â¦
 +-- notebooks/
-¦   +-- student_performance_analysis.ipynb
-¦
+Â¦   +-- student_performance_analysis.ipynb
+Â¦
 +-- powerbi/
-¦   +-- Student_Performance_Dashboard.pbix
-¦
+Â¦   +-- Student_Performance_Dashboard.pbix
+Â¦
 +-- images/
-¦   +-- student-performance-dashboard.png
-¦
+Â¦   +-- student-performance-dashboard.png
+Â¦
 +-- requirements.txt
-?? Skills Demonstrated
+ Skills Demonstrated
 This project demonstrates practical skills in:
 
 Data cleaning
@@ -316,24 +316,24 @@ Business insight generation
 
 GitHub portfolio development
 
-?? Conclusion
+ Conclusion
 The Student Performance Analysis project demonstrates an end-to-end data analytics workflow, from raw data inspection to statistical analysis and interactive business intelligence reporting.
 
 The strongest finding is the relationship between weekly self-study hours and total score, while attendance and class participation show almost no linear correlation with total score in this dataset.
 
 The project demonstrates how a Data Analyst can move beyond simply creating charts and use data to answer meaningful questions, identify patterns, communicate insights, and support evidence-based decision-making.
 
-?? Author
+ Author
 Babajide John Falowo
 
 Data Analyst | Data Science Enthusiast
 
 Skills
-Python • SQL • Power BI • Tableau • Excel • Statistics • Data Visualization
+Python â€¢ SQL â€¢ Power BI â€¢ Tableau â€¢ Excel â€¢ Statistics â€¢ Data Visualization
 
 Connect With Me
 GitHub: https://github.com/singleme92
 
 LinkedIn: https://www.linkedin.com/in/babajide-falowo-a59456281
 
-? If you find this project useful, feel free to explore the repository and connect with me on GitHub or LinkedIn.
+ If you find this project useful, feel free to explore the repository and connect with me on GitHub or LinkedIn.

@@ -8,7 +8,8 @@
 
 
 
- Project Overview
+ Project Overview:
+ 
 This project analyzes 1,000,000 student records to understand academic performance and the relationship between students' study habits, attendance, class participation, and final scores.
 
 The project combines Python exploratory data analysis (EDA) with an interactive Power BI dashboard to transform raw student-performance data into clear, decision-ready insights.

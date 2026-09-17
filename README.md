@@ -275,4 +275,15 @@ This project demonstrates practical skills in:
 
 ---
 
-? If you find this project useful, feel free to explore the repository and give it a star
+## Contact
+I am open to opportunities involving:
+
+Data Analysis
+Business Intelligence
+Power BI
+Python Data Analysis
+SQL
+Data Visualization
+Reporting and Dashboard Development
+
+Feel free to connect with me on GitHub or LinkedIn.

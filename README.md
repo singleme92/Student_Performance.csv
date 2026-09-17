@@ -13,7 +13,7 @@ This project analyzes the academic performance of **1,000 students** using Pytho
 
 The analysis explores student scores in **Math, Reading, and Writing** and examines how performance varies across demographic, socioeconomic, and test-preparation factors.
 
-### ?? Objectives
+###  Objectives
 
 * Analyze student performance across the three subjects
 * Identify patterns in Math, Reading, and Writing scores
@@ -25,7 +25,7 @@ The analysis explores student scores in **Math, Reading, and Writing** and exami
 
 ---
 
-## ?? Business Questions
+##  Business Questions
 
 This analysis is designed to answer practical questions that educators, school administrators, and education stakeholders may ask:
 
@@ -51,7 +51,7 @@ This analysis is designed to answer practical questions that educators, school a
 
 ---
 
-## ?? Dataset
+##  Dataset
 
 The dataset contains **1,000 student records** and includes the following variables:
 
@@ -66,7 +66,7 @@ The dataset contains **1,000 student records** and includes the following variab
 | `reading score`               | Reading score                                  |
 | `writing score`               | Writing score                                  |
 
-### ?? Engineered Features
+###  Engineered Features
 
 Additional features were created during the analysis:
 
@@ -79,7 +79,7 @@ Additional features were created during the analysis:
 
 ---
 
-## ??? Tools & Technologies
+##  Tools & Technologies
 
 * **Python**
 * **Pandas** – Data manipulation and analysis
@@ -92,7 +92,7 @@ Additional features were created during the analysis:
 
 ---
 
-## ?? Data Preparation & Analysis
+##  Data Preparation & Analysis
 
 The project includes:
 
@@ -109,9 +109,9 @@ The project includes:
 
 ---
 
-## ?? Key Findings
+##  Key Findings
 
-### ?? Subject Performance
+###  Subject Performance
 
 The analysis compares student performance across:
 
@@ -125,19 +125,19 @@ This helps identify differences in overall performance between the three subject
 
 The analysis shows differences in subject performance between male and female students, particularly across Reading, Writing, and Mathematics.
 
-### ??? Lunch Type
+###  Lunch Type
 
 Students were compared based on **Standard** and **Free/Reduced** lunch categories. The analysis shows differences in average academic scores between the two groups.
 
-### ?? Test Preparation
+###  Test Preparation
 
 Students who completed the test preparation course were compared with students who did not complete it. The analysis shows differences in average scores between the two groups.
 
-### ?? Parental Education
+###  Parental Education
 
 Student performance was also examined across different parental education levels to identify patterns in academic outcomes.
 
-### ? Pass/Fail Analysis
+###  Pass/Fail Analysis
 
 Using the defined passing criteria:
 
@@ -146,7 +146,7 @@ Using the defined passing criteria:
 
 ---
 
-# ?? Dashboard & Visualizations
+#  Dashboard & Visualizations
 
 ## 1. Student Performance Dashboard
 
@@ -196,7 +196,7 @@ Shows the distribution of students across the defined performance categories.
 
 ---
 
-# ?? Repository Structure
+#  Repository Structure
 
 ```text
 student-performance-analysis/
@@ -222,7 +222,7 @@ student-performance-analysis/
 
 ---
 
-# ?? Project Workflow
+#  Project Workflow
 
 ```text
 Raw Dataset
@@ -244,7 +244,7 @@ Insights & Conclusions
 
 ---
 
-# ?? Skills Demonstrated
+#  Skills Demonstrated
 
 This project demonstrates practical skills in:
 
@@ -263,15 +263,15 @@ This project demonstrates practical skills in:
 
 ---
 
-# ?? Author
+#  Author
 
 ## Jide Falowo
 
 **Data Analyst | Data Science Enthusiast**
 
-?? **GitHub:** [github.com/singleme92](https://github.com/singleme92)
+ **GitHub:** [github.com/singleme92](https://github.com/singleme92)
 
-?? **LinkedIn:** [linkedin.com/in/babajide-falowo-a59456281](https://linkedin.com/in/babajide-falowo-a59456281)
+ **LinkedIn:** [linkedin.com/in/babajide-falowo-a59456281](https://linkedin.com/in/babajide-falowo-a59456281)
 
 ---
 

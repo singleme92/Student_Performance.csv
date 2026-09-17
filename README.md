@@ -278,12 +278,12 @@ This project demonstrates practical skills in:
 ## Contact
 I am open to opportunities involving:
 
-Data Analysis
-Business Intelligence
-Power BI
-Python Data Analysis
-SQL
-Data Visualization
-Reporting and Dashboard Development
+*Data Analysis
+*Business Intelligence
+*Power BI
+*Python Data Analysis
+*SQL
+*Data Visualization
+*Reporting and Dashboard Development
 
-Feel free to connect with me on GitHub or LinkedIn.
+*Feel free to connect with me on GitHub or LinkedIn.

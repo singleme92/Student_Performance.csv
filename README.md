@@ -1,340 +1,311 @@
+# ?? Student Performance Analysis
 
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge\&logo=python\&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=for-the-badge\&logo=pandas\&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-Analysis-013243?style=for-the-badge\&logo=numpy\&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-11557c?style=for-the-badge\&logo=python\&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-Visualization-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?style=for-the-badge\&logo=powerbi\&logoColor=black)
 
+## ?? Project Overview
 
- Student Performance Analysis Dashboard
+This project analyzes the academic performance of **1,000 students** using Python and Power BI.
 
+The analysis explores student scores in **Math, Reading, and Writing** and examines how performance varies across demographic, socioeconomic, and test-preparation factors.
 
+### ?? Objectives
 
+* Analyze student performance across the three subjects
+* Identify patterns in Math, Reading, and Writing scores
+* Compare performance across gender groups
+* Examine performance by lunch type
+* Analyze the relationship between test preparation and scores
+* Create overall performance metrics
+* Build visualizations and an interactive Power BI dashboard
 
+---
 
+## ?? Business Questions
 
- Project Overview:
- 
-This project analyzes 1,000,000 student records to understand academic performance and the relationship between students' study habits, attendance, class participation, and final scores.
+This analysis is designed to answer practical questions that educators, school administrators, and education stakeholders may ask:
 
-The project combines Python exploratory data analysis (EDA) with an interactive Power BI dashboard to transform raw student-performance data into clear, decision-ready insights.
+1. **Which subject shows the highest and lowest average student performance?**
 
-The analysis focuses on:
+2. **How does student performance differ by gender?**
 
-Overall student performance
+3. **Do students who completed the test preparation course perform differently from those who did not?**
 
-Grade distribution
+4. **How does performance vary between Standard and Free/Reduced lunch groups?**
 
-Average total score
+5. **Does parental education level appear to be associated with student performance?**
 
-Weekly self-study hours
+6. **Which demographic groups have the highest and lowest average scores?**
 
-Attendance percentage
+7. **What percentage of students pass all three subjects?**
 
-Class participation
+8. **How are students distributed across the different performance categories?**
 
-Relationship between study time and academic performance
+9. **Which factors show the strongest relationship with overall student performance?**
 
-Relationship between attendance and academic performance
+10. **What patterns can be identified that may help schools better understand student academic outcomes?**
 
- Business / Analytical Objectives
-The main objectives of this project are to:
+---
 
-Measure the overall academic performance of students.
+## ?? Dataset
 
-Identify how students are distributed across grades.
+The dataset contains **1,000 student records** and includes the following variables:
 
-Determine the average score and other key performance indicators.
+| Column                        | Description                                    |
+| ----------------------------- | ---------------------------------------------- |
+| `gender`                      | Student gender                                 |
+| `race/ethnicity`              | Student race/ethnicity group                   |
+| `parental level of education` | Parent's highest education level               |
+| `lunch`                       | Standard or free/reduced lunch                 |
+| `test preparation course`     | Whether the student completed test preparation |
+| `math score`                  | Mathematics score                              |
+| `reading score`               | Reading score                                  |
+| `writing score`               | Writing score                                  |
 
-Investigate whether self-study time is associated with higher scores.
+### ?? Engineered Features
 
-Examine whether attendance is associated with total score.
+Additional features were created during the analysis:
 
-Create an interactive dashboard that allows users to filter performance by grade.
+| Feature                | Description                                             |
+| ---------------------- | ------------------------------------------------------- |
+| `total_score`          | Combined Math, Reading, and Writing scores              |
+| `average_score`        | Average score across the three subjects                 |
+| `performance_category` | Student performance classification                      |
+| `pass_status`          | Pass/fail classification based on the defined threshold |
 
-Present findings in a format suitable for educators, school administrators, and other stakeholders.
+---
 
- Dataset
-Dataset: student_performance.csv
+## ??? Tools & Technologies
 
-Records: 1,000,000 students
+* **Python**
+* **Pandas** – Data manipulation and analysis
+* **NumPy** – Numerical analysis
+* **Matplotlib** – Data visualization
+* **Seaborn** – Statistical visualization
+* **SciPy** – Statistical analysis
+* **Power BI** – Interactive dashboard development
+* **Jupyter Notebook** – Analysis environment
 
-Columns: 6
+---
 
-Column	Description
-student_id	Unique identifier for each student
-weekly_self_study_hours	Average number of hours spent studying independently each week
-attendance_percentage	Student attendance percentage
-class_participation	Class participation score
-total_score	Overall student performance score
-grade	Student grade category
-Data Quality
-The dataset was inspected for:
+## ?? Data Preparation & Analysis
 
-Number of rows and columns
+The project includes:
 
-Data types
+* Data inspection and cleaning
+* Missing-value checks
+* Duplicate-value checks
+* Descriptive statistical analysis
+* Feature engineering
+* Subject-level performance analysis
+* Performance categorization
+* Pass/fail analysis
+* Group comparisons
+* Data visualization
 
-Missing values
+---
 
-Duplicate records
+## ?? Key Findings
 
-Descriptive statistics
+### ?? Subject Performance
 
-Unique grade categories
+The analysis compares student performance across:
 
-Minimum and maximum values
+* Mathematics
+* Reading
+* Writing
 
- Tools & Technologies
-Python
-Python
+This helps identify differences in overall performance between the three subjects.
 
-Pandas
+### ????? Gender Performance
 
-NumPy
+The analysis shows differences in subject performance between male and female students, particularly across Reading, Writing, and Mathematics.
 
-Matplotlib
+### ??? Lunch Type
 
-Seaborn
+Students were compared based on **Standard** and **Free/Reduced** lunch categories. The analysis shows differences in average academic scores between the two groups.
 
-SciPy
+### ?? Test Preparation
 
-Jupyter Notebook
+Students who completed the test preparation course were compared with students who did not complete it. The analysis shows differences in average scores between the two groups.
 
-Power BI
-Power Query
+### ?? Parental Education
 
-DAX
+Student performance was also examined across different parental education levels to identify patterns in academic outcomes.
 
-KPI Cards
+### ? Pass/Fail Analysis
 
-Clustered Column Charts
+Using the defined passing criteria:
 
-Scatter Charts
+* **812 students (81.2%)** passed all three subjects
+* **188 students (18.8%)** did not pass all three subjects
 
-Slicers
+---
 
-Interactive dashboard design
+# ?? Dashboard & Visualizations
 
-Version Control
-Git
+## 1. Student Performance Dashboard
 
-GitHub
+The Power BI dashboard provides an overview of student performance using key performance indicators, charts, and interactive filters.
 
- Project Workflow
+![Student Performance Analysis Dashboard](Student%20Performance%20Analysis%20Dasboard.JPG)
+
+---
+
+## 2. Gender Distribution
+
+Shows the distribution of students by gender.
+
+![Gender Distribution](Gender%20Distribution.JPG)
+
+---
+
+## 3. Average Score by Subject
+
+Compares average performance across Math, Reading, and Writing.
+
+![Average Score Bar Chart](Average%20Score%20Bar%20Chart.JPG)
+
+---
+
+## 4. Performance by Gender
+
+Compares student performance across subjects by gender.
+
+![Performance By Gender](Performance%20By%20Gender.JPG)
+
+---
+
+## 5. Performance by Lunch Type
+
+Compares academic performance across lunch categories.
+
+![Performance By Lunch](Performance%20By%20Lunch.JPG)
+
+---
+
+## 6. Student Performance Categories
+
+Shows the distribution of students across the defined performance categories.
+
+![Students Performance Categories](Students%20Performance%20Categories.JPG)
+
+---
+
+# ?? Repository Structure
+
+```text
+student-performance-analysis/
+¦
++-- data/
+¦   +-- StudentsPerformance.csv
+¦
++-- notebooks/
+¦   +-- Student_Performance_Analysis.ipynb
+¦
++-- assets/
+¦   +-- Student Performance Analysis Dasboard.JPG
+¦   +-- Gender Distribution.JPG
+¦   +-- Average Score Bar Chart.JPG
+¦   +-- Performance By Gender.JPG
+¦   +-- Performance By Lunch.JPG
+¦   +-- Students Performance Categories.JPG
+¦
++-- README.md
++-- requirements.txt
+```
+
+---
+
+# ?? How to Run the Project
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/singleme92/student-performance-analysis.git
+```
+
+### 2. Navigate to the project folder
+
+```bash
+cd student-performance-analysis
+```
+
+### 3. Install the required libraries
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Launch Jupyter Notebook
+
+```bash
+jupyter notebook
+```
+
+Open:
+
+```text
+notebooks/Student_Performance_Analysis.ipynb
+```
+
+---
+
+# ?? Project Workflow
+
+```text
 Raw Dataset
      ?
-Data Inspection
-     ?
-Data Cleaning & Validation
+Data Cleaning
      ?
 Exploratory Data Analysis
      ?
+Feature Engineering
+     ?
 Statistical Analysis
      ?
-Power BI Data Preparation
+Data Visualization
      ?
-DAX Measures
+Power BI Dashboard
      ?
-Interactive Dashboard
-     ?
-Insights & Recommendations
- Key Performance Indicators
-The Power BI dashboard contains four main KPI cards:
+Insights & Conclusions
+```
 
-1. Total Students
-1,000,000
+---
 
-2. Average Total Score
-84.28
+# ?? Skills Demonstrated
 
-3. Average Attendance
-84.71%
-
-4. Average Weekly Self-Study
-15.03 hours
-
-These KPIs provide a quick summary of the student population before users explore the detailed visuals.
-
- Power BI Dashboard Visualizations
-The dashboard contains the following visuals:
-
-1. Student Distribution by Grade
-A column chart showing the number of students in each grade category.
-
-Grade	Students
-A	548,644
-B	258,174
-C	141,980
-D	44,998
-F	6,204
-Key observation: Grade A represents the largest student group, while Grade F represents the smallest.
-
-2. Average Score by Grade
-This visualization compares average total scores across grade categories.
-
-Grade	Average Score
-A	96.04
-B	77.95
-C	63.56
-D	49.38
-F	35.47
-The visual makes the performance gap between grade categories easy to identify.
-
-3. Study Hours vs Total Score
-A scatter plot compares weekly self-study hours with total score.
-
-The dataset shows a strong positive correlation of approximately:
-
-0.812
-
-This indicates that students who spend more time on self-study generally tend to achieve higher total scores.
-
-Analytical insight: Self-study hours are the strongest linear predictor of total score among the numeric variables in this dataset.
-
-4. Attendance vs Total Score
-A scatter plot compares attendance percentage with total score.
-
-The correlation is approximately:
-
--0.001
-
-This indicates virtually no linear relationship between attendance percentage and total score in this particular dataset.
-
-Important: This does not mean attendance is unimportant in education. It means that within this dataset, attendance alone does not explain variation in total scores through a simple linear relationship.
-
-5. Grade Slicer
-An interactive Power BI slicer allows users to filter the dashboard by:
-
-A
-
-B
-
-C
-
-D
-
-F
-
-Selecting a grade updates the KPI cards and visualizations dynamically.
-
- Key Insights
-Insight 1 — Overall performance is relatively high
-The average total score is approximately 84.28, indicating a generally strong overall performance across the dataset.
-
-Insight 2 — Grade A dominates the dataset
-More than half of the students are classified as Grade A:
-
-548,644 out of 1,000,000 students (54.86%)
-
-Insight 3 — Study time has a strong relationship with performance
-Weekly self-study hours have a correlation of approximately 0.812 with total score.
-
-This is a strong positive relationship and suggests that independent study time is strongly associated with academic performance in this dataset.
-
-Insight 4 — Attendance shows almost no linear relationship with score
-Attendance has a correlation of approximately -0.001 with total score.
-
-This is a useful example of why analysts should investigate the data rather than assume that every commonly expected factor will show a strong statistical relationship.
-
-Insight 5 — Class participation has almost no linear relationship with total score
-Class participation has a correlation of approximately 0.001 with total score in the dataset.
-
-Again, this describes the observed data and should not be interpreted as proof that classroom participation has no educational value.
-
- Power BI DAX Measures
-The dashboard uses measures such as:
-
-Total Students = COUNTROWS(student_performance)
-Average Score = AVERAGE(student_performance[total_score])
-Average Attendance = AVERAGE(student_performance[attendance_percentage])
-Average Study Hours = AVERAGE(student_performance[weekly_self_study_hours])
-Average Participation = AVERAGE(student_performance[class_participation])
-These measures allow the dashboard to respond dynamically to filters and slicer selections.
-
- Recommendations
-Based on the analysis:
-
-Encourage structured self-study programs because study hours show a strong positive association with total score.
-
-Monitor students with low study hours and provide targeted academic support.
-
-Use interactive dashboards to identify performance patterns across different grade groups.
-
-Avoid relying on assumptions alone. Statistical analysis should be used to test whether factors such as attendance and participation actually show meaningful relationships with performance.
-
-Combine multiple indicators when evaluating student performance rather than using a single metric.
-
- Dashboard Preview
-
-![Student Performance Power BI Dashboard](images/student-performance-dashboard.png)
-Recommended repository structure:
-
-Student-Performance-Analysis/
-¦
-+-- README.md
-+-- data/
-¦   +-- student_performance.csv
-¦
-+-- notebooks/
-¦   +-- student_performance_analysis.ipynb
-¦
-+-- powerbi/
-¦   +-- Student_Performance_Dashboard.pbix
-¦
-+-- images/
-¦   +-- student-performance-dashboard.png
-¦
-+-- requirements.txt
- Skills Demonstrated
 This project demonstrates practical skills in:
 
-Data cleaning
+* Data Cleaning
+* Exploratory Data Analysis
+* Statistical Analysis
+* Feature Engineering
+* Data Visualization
+* Python Programming
+* Pandas & NumPy
+* Matplotlib & Seaborn
+* Power BI Dashboard Development
+* Data Storytelling
+* Analytical Reporting
+* Business Question Development
 
-Data validation
+---
 
-Exploratory Data Analysis (EDA)
+# ?? Author
 
-Statistical analysis
+## Jide Falowo
 
-Correlation analysis
+**Data Analyst | Data Science Enthusiast**
 
-Data visualization
+?? **GitHub:** [github.com/singleme92](https://github.com/singleme92)
 
-Python programming
+?? **LinkedIn:** [linkedin.com/in/babajide-falowo-a59456281](https://linkedin.com/in/babajide-falowo-a59456281)
 
-Pandas and NumPy
+---
 
-Matplotlib and Seaborn
-
-Power Query
-
-DAX
-
-KPI development
-
-Dashboard design
-
-Data storytelling
-
-Business insight generation
-
-GitHub portfolio development
-
- Conclusion
-The Student Performance Analysis project demonstrates an end-to-end data analytics workflow, from raw data inspection to statistical analysis and interactive business intelligence reporting.
-
-The strongest finding is the relationship between weekly self-study hours and total score, while attendance and class participation show almost no linear correlation with total score in this dataset.
-
-The project demonstrates how a Data Analyst can move beyond simply creating charts and use data to answer meaningful questions, identify patterns, communicate insights, and support evidence-based decision-making.
-
-
- Author:
-Babajide John Falowo
-
-Data Analyst | Data Science Enthusiast
-
-Skills
-Python • SQL • Power BI • Tableau • Excel • Statistics • Data Visualization
-
-Connect With Me
-GitHub: https://github.com/singleme92
-
-LinkedIn: https://www.linkedin.com/in/babajide-falowo-a59456281
-
- If you find this project useful, feel free to explore the repository and connect with me on GitHub or LinkedIn.
+? If you find this project useful, feel free to explore the repository and give it a star.

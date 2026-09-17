@@ -121,7 +121,7 @@ The analysis compares student performance across:
 
 This helps identify differences in overall performance between the three subjects.
 
-### ????? Gender Performance
+###  Gender Performance
 
 The analysis shows differences in subject performance between male and female students, particularly across Reading, Writing, and Mathematics.
 
@@ -275,4 +275,4 @@ This project demonstrates practical skills in:
 
 ---
 
-? If you find this project useful, feel free to explore the repository and give it a star.
+? If you find this project useful, feel free to explore the repository and give it a star

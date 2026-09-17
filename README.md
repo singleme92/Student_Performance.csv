@@ -7,7 +7,7 @@
 ![Seaborn](https://img.shields.io/badge/Seaborn-Visualization-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?style=for-the-badge\&logo=powerbi\&logoColor=black)
 
-## ?? Project Overview
+ ?? Project Overview
 
 This project analyzes the academic performance of **1,000 students** using Python and Power BI.
 

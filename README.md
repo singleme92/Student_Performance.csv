@@ -219,39 +219,6 @@ student-performance-analysis/
 +-- requirements.txt
 ```
 
----
-
-# ?? How to Run the Project
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/singleme92/student-performance-analysis.git
-```
-
-### 2. Navigate to the project folder
-
-```bash
-cd student-performance-analysis
-```
-
-### 3. Install the required libraries
-
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Launch Jupyter Notebook
-
-```bash
-jupyter notebook
-```
-
-Open:
-
-```text
-notebooks/Student_Performance_Analysis.ipynb
-```
 
 ---
 

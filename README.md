@@ -9,7 +9,7 @@
 
 ##  Project Overview
 
-This project analyzes the academic performance of **1,000 students** using Python and Power BI.
+This project analyzes the academic performance of **1,000,000 students** using Python and Power BI.
 
 The analysis explores student scores in **Math, Reading, and Writing** and examines how performance varies across demographic, socioeconomic, and test-preparation factors.
 
@@ -53,7 +53,7 @@ This analysis is designed to answer practical questions that educators, school a
 
 ##  Dataset
 
-The dataset contains **1,000 student records** and includes the following variables:
+The dataset contains **1,000,000 student records** and includes the following variables:
 
 | Column                        | Description                                    |
 | ----------------------------- | ---------------------------------------------- |
